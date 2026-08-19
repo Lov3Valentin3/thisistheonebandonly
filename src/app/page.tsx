@@ -50,7 +50,8 @@ export default async function HomePage() {
               ✶
             </span>
           </div>
-          <img src="/images/letter-desk.jpg" alt="A parchment letter on a North Pole desk" className="mb-5 h-36 w-full rounded-2xl object-cover" />
+          <Image /> 
+        <img> src="/images/letter-desk.jpg" alt="A parchment letter on a North Pole desk" className="mb-5 h-36 w-full rounded-2xl object-cover" />
           <h2 className="font-script text-5xl text-[#7a0c1a]">Dear Friend,</h2>
           <div className="font-letter mt-3 space-y-3 text-lg leading-8 text-[#3b2416]">
             <p>My name is Jingle, and I live in a twinkly loft above Santa&apos;s workshop. The snow is falling sideways tonight, which means it is the perfect time to make a new friend.</p>
@@ -69,13 +70,15 @@ export default async function HomePage() {
           </div>
         </div>
         <div className="card overflow-hidden">
-          <img src="/images/workshop.jpg" alt="Santa's workshop" className="h-36 w-full object-cover" />
+          <Image /> 
+        <img src="/images/workshop.jpg" alt="Santa's workshop" className="h-36 w-full object-cover" />
           <div className="p-5">
             <h2 className="font-display text-xl">Write. Play. Celebrate.</h2>
             <p className="mt-2 text-sm text-white/70">Letters, games, certificates, and little films from the workshop — all in one cozy place.</p>
           </div>
         </div>
         <div className="card overflow-hidden">
+          <Image />
           <img src="/images/reindeer-feed.jpg" alt="Reindeer in a snowy stable" className="h-36 w-full object-cover" />
           <div className="p-5">
             <h2 className="font-display text-xl">Safe for families</h2>
